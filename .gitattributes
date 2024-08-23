@@ -1,0 +1,2 @@
+# Forçar a linguagem Python para arquivos .py
+*.py linguist-language=Python
