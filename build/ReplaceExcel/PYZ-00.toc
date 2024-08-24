@@ -1,5 +1,5 @@
-('C:\\Users\\higor\\OneDrive\\Área de Trabalho\\Projetos\\Projeto '
- 'Roberto\\build\\ReplaceExcel\\PYZ-00.pyz',
+('C:\\Users\\higor\\OneDrive\\Área de '
+ 'Trabalho\\Projetos\\ReplaceExcel\\build\\ReplaceExcel\\PYZ-00.pyz',
  [('PIL',
    'C:\\Users\\higor\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PIL\\__init__.py',
    'PYMODULE'),

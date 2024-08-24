@@ -1,0 +1,14 @@
+# Ignorar arquivos de compilação
+*.class
+*.log
+
+# Ignorar arquivos temporários do sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar arquivos de configuração do IDE
+.idea/
+*.iml
+
+# Ignorar arquivos de ambiente
+.env

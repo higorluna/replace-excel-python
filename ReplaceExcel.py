@@ -3,13 +3,13 @@ import tkinter as tk
 from tkinter import messagebox
 
 def alterExcel(route):
-    
+    print('Ola mundo')
     newRoute = route.replace('"','')
     df = pd.read_excel(newRoute, header=None)
 
     for x in range(0, len(df)):
         phoneNumber = df.loc[x][0]
-        alterNumber = phoneNumber.replace('(','').replace(')','').replace('-','')
+        alterNumber = phoneNumber.replace('(','').replace(')','').replace('-','').replace(' ','')
         finalNumber = "55" + alterNumber
         df.iloc[x][0] = finalNumber
         
@@ -40,4 +40,4 @@ button.pack(pady=10)
 
 root.mainloop()
 
-print(on_button_click)
+
